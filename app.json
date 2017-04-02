@@ -1,17 +1,17 @@
 {
     "pages": [
         "pages/index/index",
-        "pages/logs/logs",
         "pages/about/about",
+        "pages/logs/logs",
         "pages/list/list",
         "pages/person/person",
         "pages/start/start"
     ],
     "window": {
         "backgroundTextStyle": "light",
-        "navigationBarBackgroundColor": "#fff",
-        "navigationBarTitleText": "WeChat",
-        "navigationBarTextStyle": "black"
+        "navigationBarBackgroundColor": "#26265a",
+        "navigationBarTitleText": "古文物鉴定",
+        "navigationBarTextStyle": "#fff"
     },
     "tabBar": {
         "color": "#cccccc",

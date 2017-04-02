@@ -1,0 +1,16 @@
+<view class="title">
+    <view class="top-left"></view>
+    <view class="top-text">
+        <text>
+            {{title}}
+        </text>
+    </view>
+    <view class="top-right"></view>
+</view>
+
+<view class="content">
+    <text>
+        {{content[0]}}
+    </text>
+    <image src="{{images[0]}}" />
+</view>

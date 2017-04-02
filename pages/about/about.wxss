@@ -1,0 +1,48 @@
+page {
+    background-image: url(../../images/bg-bottom.jpg);
+}
+
+.title {
+    height: 200rpx;
+    position: relative;
+}
+.title .top-left,
+.title .top-right{
+    top:72rpx;
+    position: absolute;
+    width: 250rpx;
+    height: 100rpx;
+}
+.title .top-left{
+    left: 0;
+    background-image: url(../../images/fly-left.jpg);
+}
+.title .top-text {
+    position: absolute;
+    top:32rpx;
+    right: 84rpx;
+    z-index: 1;
+}
+.title .top-text text{
+    font-family: "隶书";
+    color: #fff;
+    font-size: 45rpx;
+}
+.title .top-right{
+    right: -25rpx;
+    background-image: url(../../images/fly-right.jpg);
+}
+
+.content {
+    text-align: center;
+}
+.content text {
+    display: inline-block;
+    margin: 50rpx;
+    font-family: "隶书";
+    color: #555;
+}
+.content image {
+    width: 600rpx;
+    height: 500rpx;
+}

@@ -22,6 +22,8 @@ page {
 .button {
     display: flex;
 }
-.button botton {
-    
+.button button {
+    color: #eee;
+    font-family: "隶书";
+    background-color: #26265a;
 }

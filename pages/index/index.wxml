@@ -4,7 +4,7 @@
   </view>
   <view class="button">
     <button>专家招募</button>
-    <button>关于我们</button>
+    <button bindtap="goAbout">关于我们</button>
     <button>开始鉴定</button>
   </view>
 </view>

@@ -1,21 +1,27 @@
-/**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+page {
+    background-image: url(../../images/bg-bottom.jpg);
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.body {
+    height: 900rpx;
+    width: 100%;
+    /*background-color: red;*/
 }
 
-.userinfo-nickname {
-  color: #aaa;
+.text {
+    height: 750rpx;
+    text-align: center;
+}
+.text text {
+    font-family: "隶书";
+    font-size: 85rpx;
+    color: white;
+    line-height:  850rpx;
 }
 
-.usermotto {
-  margin-top: 200px;
+.button {
+    display: flex;
+}
+.button botton {
+    
 }

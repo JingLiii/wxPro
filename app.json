@@ -1,9 +1,9 @@
 {
     "pages": [
+        "pages/list/list",
         "pages/index/index",
         "pages/about/about",
         "pages/logs/logs",
-        "pages/list/list",
         "pages/person/person",
         "pages/start/start"
     ],
@@ -24,7 +24,7 @@
             },
             {
                 "pagePath": "pages/list/list",
-                "text": "订单"
+                "text": "咨询"
             }
         ]
     }

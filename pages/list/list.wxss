@@ -1,0 +1,63 @@
+.contanier {
+    margin-bottom: 300rpx;
+}
+.title {
+    height: 200rpx;
+    text-align: center;
+    line-height: 200rpx;
+    font-size: 60rpx;
+    font-weight: 900;
+}
+
+.message {
+    margin: 0 50rpx;
+    overflow: hidden;
+    margin-bottom: 50rpx;
+}
+
+.message text{
+    display: block;
+}
+.self .self-text {
+    margin-top: 20rpx;
+}
+.auto {
+    position: relative;
+    float: right;
+}
+.auto .auto-name{
+    width: 100rpx;
+    position: absolute;
+    right: 0;
+    top:0;
+}
+.auto .auto-text {
+    margin-top: 60rpx;
+}
+
+
+form {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+form input {
+    display: inline-block;
+    background-color: #eee;
+    height: 140rpx;
+    width: 80%;
+}
+form view {
+    height: 140rpx;
+    float: right;
+    line-height: 140rpx;
+    text-align: center;
+    display: inline-block;
+    width: 20%;
+    background-color: #333;
+    color: #fff;
+    border-radius: 10%;
+}
+form view:hover {
+    background-color: #888;
+}

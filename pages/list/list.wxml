@@ -1,0 +1,22 @@
+<view class="contanier">
+
+    <view class="title">AutoChat</view>
+
+    <view class="message" wx:for="{{message}}" wx:key="*key">
+        <view class="self">
+            <text>{{myName}}:</text>
+            <text class="self-text">{{item[0]}}</text>
+        </view>
+        <view class="auto">
+            <text class="auto-name">小古:</text>
+            <text class="auto-text">{{item[1]}}</text>
+        </view>
+    </view>
+
+</view>
+
+<form>
+    <input bindinput="bindKeyInput" placeholder="{{placeholder}}" value="{{inputValue}}"  auto-focus auto-height fixed="true"/>
+    <view bindtap="submitForm">发送</view>
+</form>
+
